@@ -1,0 +1,211 @@
+Niklas Kunkel
+CS460 Intro to Databases
+4/23/15
+
+!!*********************PHOTOSHARE REPORT*********************************!!
+
+FUNCTIONS
+_______________________________
+
+1) Login page allows users to log in with their credentials, click a button
+to register a new account, or browse photos without registering.
+
+2) Registered users are allowed to create albums and upload pictures into
+them. These pictures may or may not include a caption. Registered users may
+also delete their albums. Deleting an album will delete all of the pictures
+inside. 
+
+3) From the index page, users can explore all of the functionality of the
+photoshare app.
+
+4) Clicking view on the Power Users heading on the index.jsp page shows the
+top users by the amount of points they have acquied. Points are a function
+comments and likes.
+
+5) User may also view the top 10 most popular tags by clicking on the
+Trending Tags heading on index.jsp.
+
+6) Users can use the Disjunctive Tag search which finds similar content to
+theirs. This is based off of their pictures tags.
+
+7) Users can use the Conjunctive Tag search to find images based off of the
+intersection of two tags.
+
+8) Clicking on the Search and Add Friends header in index.jsp allows users
+to find and add friends via their friend's email.
+
+9) Clicking List All on index.jsp will display all of a user's friends.
+Note that friendships are a one-way "follow" and not a two-way handshake
+friendship.
+
+10) Clicking browse pictures on index.jsp forwards the user to
+showpictures.jsp. Here the user can find ALL images with a certain tag,
+find only their OWN images with a certain tag, or view all the pictures
+from a specifc album.
+
+11) Clicking on a picture takes you to its page. Here the user can like a
+photo, comment on a photo, see who has liked this photo, as well as add
+tags, and find recomended tags. A user can also remove the photo by
+clicking on the remove photo button underneath the image.
+
+ASSUMPTIONS
+_______________________________
+Valid user input is expected. Using invalid character sets for album
+names/captions or unsupported image files such as .png or .tif will result
+in an error.
+
+Anyone  can add a tag to a photo.
+
+Photos must be uploaded to an album.
+
+Albums are specific to users, therefore non-users may not upload photos.
+
+Users cannot comment on their own uploaded photo.
+
+Caption must be set on upload and cannot be edited later.
+
+Adding Friends requires a user to know their friends email.
+
+User are expected to like a picture only once.
+Liking a picture more than once will result in an error.
+
+To see comments or updated # of likes, user must refresh the page.
+
+Disjunctive Tag search requires minimum of 5 picture tags.
+
+For those less socially inclined among us, users are allowed to friend
+themselves so no one has to feel like a loner.
+
+
+
+
+FINAL SQL SCHEMA
+__________________________________
+
+DROP TABLE Pictures CASCADE;
+DROP TABLE Albums CASCADE;
+DROP TABLE Users CASCADE;
+DROP TABLE Friends CASCADE;
+DROP TABLE Comments CASCADE;
+DROP TABLE Tag CASCADE;
+DROP TABLE Likes CASCADE;
+
+DROP SEQUENCE Pictures_picture_id_seq;
+DROP SEQUENCE Users_user_id_seq;
+DROP SEQUENCE Comments_comment_id_seq;
+DROP SEQUENCE Albums_album_id_seq;
+
+-- Create all of our sequences we will need
+CREATE SEQUENCE Pictures_picture_id_seq
+  INCREMENT 1
+  MINVALUE 1
+  MAXVALUE 9223372036854775807
+  START 14
+  CACHE 1;
+
+CREATE SEQUENCE Users_user_id_seq
+  INCREMENT 1
+  MINVALUE 1
+  MAXVALUE 9223372036854775807
+  START 14
+  CACHE 1;
+
+CREATE SEQUENCE Comments_comment_id_seq
+  INCREMENT 1
+  MINVALUE 1
+  MAXVALUE 9223372036854775807
+  START 1
+  CACHE 1;
+
+CREATE SEQUENCE Albums_album_id_seq
+  INCREMENT 1
+  MINVALUE 1
+  MAXVALUE 9223372036854775807
+  START 1
+  CACHE 1;
+
+-- Create all of the tables
+CREATE TABLE Users
+(
+  user_id int4 NOT NULL DEFAULT nextval('Users_user_id_seq'),
+  email varchar(255) NOT NULL,
+  password varchar(255) NOT NULL,
+  role_name varchar(255) NOT NULL DEFAULT 'RegisteredUser',
+  firstName varchar(255) NOT NULL,
+  lastName varchar(255) NOT NULL,
+  dateOfBirth varchar(255) NOT NULL,
+  userGender varchar(1) NOT NULL,
+  currentCity varchar(255) NOT NULL,
+  currentState varchar(255) NOT NULL,
+  currentCountry varchar(255) NOT NULL,
+  homeCity varchar(255) NOT NULL,
+  homeState varchar(255) NOT NULL,
+  homeCountry varchar(255) NOT NULL,
+  schoolName varchar(255) NOT NULL,
+  schoolMajor varchar(255) NOT NULL,
+  schoolYear varchar(255) NOT NULL,
+  UNIQUE(email),
+  CONSTRAINT users_pk PRIMARY KEY (user_id)
+);
+
+CREATE TABLE Albums
+(
+  aid INT NOT NULL DEFAULT nextval('Albums_album_id_seq'),
+  aname varchar(255) NOT NULL,
+  ownid INT REFERENCES users(user_id) ON DELETE CASCADE,
+  datecreate DATE NOT NULL,
+  UNIQUE(aname,ownid),
+  CONSTRAINT aid_pk PRIMARY KEY (aid)
+);
+
+CREATE TABLE Pictures
+(
+  pid int4 NOT NULL DEFAULT nextval('Pictures_picture_id_seq'),
+  caption varchar(255) NOT NULL,
+  imgdata bytea NOT NULL,
+  size int4 NOT NULL,
+  content_type varchar(255) NOT NULL,
+  thumbdata bytea NOT NULL,
+  myalbumid INT REFERENCES Albums(aid)ON DELETE CASCADE,
+  CONSTRAINT pictures_pk PRIMARY KEY (pid)
+); 
+
+CREATE TABLE Friends
+(
+  frienda INT REFERENCES Users(user_id) ON DELETE CASCADE,
+  friendb INT REFERENCES users(user_id) ON DELETE CASCADE,
+  PRIMARY KEY(frienda,friendb)
+);
+
+CREATE TABLE Likes
+(
+  pictureid INT REFERENCES Pictures(pid) ON DELETE CASCADE,
+  userid INT REFERENCES Users(user_id) ON DELETE CASCADE,
+  CONSTRAINT likes_pk PRIMARY KEY(pictureid, userid)
+);
+
+CREATE TABLE Comments
+(
+  owner INT REFERENCES Users(user_id) ON DELETE CASCADE,
+  pid INT REFERENCES Pictures(pid) ON Delete CASCADE,
+  cid INT NOT NULL DEFAULT nextval('Comments_comment_id_seq'),
+  ctext TEXT NOT NULL,
+  datamade DATE NOT NULL,
+  CONSTRAINT cid_pk PRIMARY KEY(cid)
+);
+
+CREATE Table Tag
+(
+  pid INT REFERENCES Pictures(pid) ON DELETE CASCADE,
+  word varchar(255) NOT NULL,
+  PRIMARY KEY(pid, word)
+);
+
+INSERT INTO Users (email, password, firstName, lastName, dateOfBirth, userGender, currentCity, currentState, currentCountry, homeCity, homeState, homeCountry, schoolName, schoolMajor, schoolYear ) VALUES ('test@bu.edu', 'test', 'Tester', 'test', '06/25/1991', 'M', 'Boston', 'MA', 'USA', 'Aachen', 'Weststphalen', 'Germany', 'Boston University', 'Computer Engineering', '2015');
+INSERT INTO Users (email, password, firstName, lastName, dateOfBirth, userGender, currentCity, currentState, currentCountry, homeCity, homeState, homeCountry, schoolName, schoolMajor, schoolYear ) VALUES ('nkunkel@bu.edu', 'test', 'Tester', 'test', '06/25/1990', 'M', 'Boston', 'MA', 'USA', 'Aachen', 'Wests', 'Germany', 'UCLA University', 'Biology', '2012');
+
+REFERENCES/COLLABORATIONS
+
+Worked with Raymond Li and King Mui.
+Utilized bootstrap extensively fro the front-end (getboostrap.com).
+Various bug fixes from stackoverflow and github.

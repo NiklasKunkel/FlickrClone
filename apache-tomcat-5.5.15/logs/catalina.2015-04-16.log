@@ -1,0 +1,317 @@
+Apr 16, 2015 6:07:29 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /research/CS-local/jdk1.5.0_01/jre/lib/i386/server:/research/CS-local/jdk1.5.0_01/jre/lib/i386:/research/CS-local/jdk1.5.0_01/jre/../lib/i386
+Apr 16, 2015 6:07:29 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:07:29 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 342 ms
+Apr 16, 2015 6:07:29 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Apr 16, 2015 6:07:29 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.15
+Apr 16, 2015 6:07:29 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Apr 16, 2015 6:07:29 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive photoshare.war
+Apr 16, 2015 6:07:30 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:07:30 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Apr 16, 2015 6:07:30 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1356 ms
+Apr 16, 2015 6:21:39 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:21:40 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Apr 16, 2015 6:21:40 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:21:40 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+Apr 16, 2015 6:21:46 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /research/CS-local/jdk1.5.0_01/jre/lib/i386/server:/research/CS-local/jdk1.5.0_01/jre/lib/i386:/research/CS-local/jdk1.5.0_01/jre/../lib/i386
+Apr 16, 2015 6:21:46 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:21:46 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 324 ms
+Apr 16, 2015 6:21:46 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Apr 16, 2015 6:21:46 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.15
+Apr 16, 2015 6:21:46 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Apr 16, 2015 6:21:47 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:21:47 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Apr 16, 2015 6:21:47 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 720 ms
+Apr 16, 2015 6:31:15 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:31:16 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Apr 16, 2015 6:31:16 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:31:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+Apr 16, 2015 6:32:37 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /research/CS-local/jdk1.5.0_01/jre/lib/i386/server:/research/CS-local/jdk1.5.0_01/jre/lib/i386:/research/CS-local/jdk1.5.0_01/jre/../lib/i386
+Apr 16, 2015 6:32:37 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:32:37 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 326 ms
+Apr 16, 2015 6:32:37 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Apr 16, 2015 6:32:37 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.15
+Apr 16, 2015 6:32:37 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Apr 16, 2015 6:32:38 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:32:38 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Apr 16, 2015 6:32:38 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 799 ms
+Apr 16, 2015 6:37:07 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:37:08 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Apr 16, 2015 6:37:08 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:37:08 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+Apr 16, 2015 6:38:07 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /research/CS-local/jdk1.5.0_01/jre/lib/i386/server:/research/CS-local/jdk1.5.0_01/jre/lib/i386:/research/CS-local/jdk1.5.0_01/jre/../lib/i386
+Apr 16, 2015 6:38:07 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:38:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 337 ms
+Apr 16, 2015 6:38:07 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Apr 16, 2015 6:38:07 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.15
+Apr 16, 2015 6:38:07 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Apr 16, 2015 6:38:08 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:38:08 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Apr 16, 2015 6:38:08 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 792 ms
+Apr 16, 2015 6:39:20 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:39:21 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Apr 16, 2015 6:39:21 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:39:21 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+Apr 16, 2015 6:39:59 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /research/CS-local/jdk1.5.0_01/jre/lib/i386/server:/research/CS-local/jdk1.5.0_01/jre/lib/i386:/research/CS-local/jdk1.5.0_01/jre/../lib/i386
+Apr 16, 2015 6:39:59 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:39:59 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 333 ms
+Apr 16, 2015 6:39:59 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Apr 16, 2015 6:39:59 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.15
+Apr 16, 2015 6:39:59 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Apr 16, 2015 6:40:00 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:40:00 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Apr 16, 2015 6:40:00 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 861 ms
+Apr 16, 2015 6:44:50 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:44:51 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Apr 16, 2015 6:44:52 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:44:52 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+Apr 16, 2015 6:45:42 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /research/CS-local/jdk1.5.0_01/jre/lib/i386/server:/research/CS-local/jdk1.5.0_01/jre/lib/i386:/research/CS-local/jdk1.5.0_01/jre/../lib/i386
+Apr 16, 2015 6:45:42 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:45:42 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 333 ms
+Apr 16, 2015 6:45:42 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Apr 16, 2015 6:45:42 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.15
+Apr 16, 2015 6:45:42 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Apr 16, 2015 6:45:42 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:45:42 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Apr 16, 2015 6:45:42 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 711 ms
+Apr 16, 2015 6:48:12 PM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor .#photoshare.xml
+java.io.FileNotFoundException: /home/course/cs460/nkunkel/cs460/PA2/apache-tomcat-5.5.15/conf/Catalina/localhost/.#photoshare.xml (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:565)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:535)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1181)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:292)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1304)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1568)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1577)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1557)
+	at java.lang.Thread.run(Thread.java:595)
+Apr 16, 2015 6:48:22 PM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor .#photoshare.xml
+java.io.FileNotFoundException: /home/course/cs460/nkunkel/cs460/PA2/apache-tomcat-5.5.15/conf/Catalina/localhost/.#photoshare.xml (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:565)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:535)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1181)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:292)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1304)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1568)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1577)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1557)
+	at java.lang.Thread.run(Thread.java:595)
+Apr 16, 2015 6:48:33 PM org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error deploying configuration descriptor .#photoshare.xml
+java.io.FileNotFoundException: /home/course/cs460/nkunkel/cs460/PA2/apache-tomcat-5.5.15/conf/Catalina/localhost/.#photoshare.xml (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1543)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:565)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:535)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1181)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:292)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1304)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1568)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1577)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1557)
+	at java.lang.Thread.run(Thread.java:595)
+Apr 16, 2015 6:48:43 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/photoshare]
+Apr 16, 2015 6:51:53 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:51:54 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Apr 16, 2015 6:51:54 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:51:54 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+Apr 16, 2015 6:52:40 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /research/CS-local/jdk1.5.0_01/jre/lib/i386/server:/research/CS-local/jdk1.5.0_01/jre/lib/i386:/research/CS-local/jdk1.5.0_01/jre/../lib/i386
+Apr 16, 2015 6:52:40 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:52:40 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 334 ms
+Apr 16, 2015 6:52:41 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Apr 16, 2015 6:52:41 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.15
+Apr 16, 2015 6:52:41 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Apr 16, 2015 6:52:41 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-9521
+Apr 16, 2015 6:52:41 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Apr 16, 2015 6:52:41 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 736 ms
+Apr 16, 2015 7:56:33 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /research/CS-local/jdk1.5.0_01/jre/lib/i386/server:/research/CS-local/jdk1.5.0_01/jre/lib/i386:/research/CS-local/jdk1.5.0_01/jre/../lib/i386
+Apr 16, 2015 7:56:33 PM org.apache.coyote.http11.Http11BaseProtocol init
+SEVERE: Error initializing endpoint
+java.net.BindException: Address already in use:9521
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.initEndpoint(PoolTcpEndpoint.java:297)
+	at org.apache.coyote.http11.Http11BaseProtocol.init(Http11BaseProtocol.java:141)
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1016)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:580)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:503)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:523)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:247)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:412)
+Apr 16, 2015 7:56:33 PM org.apache.catalina.startup.Catalina load
+SEVERE: Catalina.start
+LifecycleException:  Protocol handler initialization failed: java.net.BindException: Address already in use:9521
+	at org.apache.catalina.connector.Connector.initialize(Connector.java:1018)
+	at org.apache.catalina.core.StandardService.initialize(StandardService.java:580)
+	at org.apache.catalina.core.StandardServer.initialize(StandardServer.java:782)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:503)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:523)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:247)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:412)
+Apr 16, 2015 7:56:33 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 335 ms
+Apr 16, 2015 7:56:33 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Apr 16, 2015 7:56:33 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.15
+Apr 16, 2015 7:56:33 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Apr 16, 2015 7:56:33 PM org.apache.coyote.http11.Http11BaseProtocol start
+SEVERE: Error starting endpoint
+java.net.BindException: Address already in use:9521
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.initEndpoint(PoolTcpEndpoint.java:297)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.startEndpoint(PoolTcpEndpoint.java:312)
+	at org.apache.coyote.http11.Http11BaseProtocol.start(Http11BaseProtocol.java:153)
+	at org.apache.coyote.http11.Http11Protocol.start(Http11Protocol.java:102)
+	at org.apache.catalina.connector.Connector.start(Connector.java:1089)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:459)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:275)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+Apr 16, 2015 7:56:33 PM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  service.getName(): "Catalina";  Protocol handler start failed: java.net.BindException: Address already in use:9521
+	at org.apache.catalina.connector.Connector.start(Connector.java:1096)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:459)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:275)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+Apr 16, 2015 7:56:33 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 790 ms
+Apr 16, 2015 7:56:33 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[9021]: 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:359)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:363)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:615)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:575)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:275)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
